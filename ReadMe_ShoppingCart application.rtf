@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28600\viewh15140\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. There are four main functions:\
+	a)UserClient\
+	b)ProductClient\
+	c)OrderClient\
+	d)OrderDetailsClient\
+I have also made a single entry point to this application in AutomatingShoppingCart file in Client package which has every other client ran in the order required..\
+\
+if you are executing AutomatingShoppingCart main file then do not execute any other main files.\
+\
+2.order of the client files to be ran, incase Automating Shopping cart application has not been executed\'85.\
+\
+UserClient\
+ProductClient\
+OrderClient\
+OrderDetailClient\
+\
+3.Databse sql is also inside the zip file..ensure you have made the database inside the sequel pro.. by giving this ,: create database SHOPPING_CART;  and inside this database run the sql file attached with the zip.\
+\
+4. There are 4 tables: User Product,Order,OrderDetail\'85.\
+Order table refers userId as a foreign key to get user information inside the bill\
+And OrderDetails table refers Product and Order  table\'92s OrderId and ProductId as the foreign keys to get the other details about the order made by the user\
+\
+5: Some of the assignments of the eureka have been merged together.\
+\
+}
